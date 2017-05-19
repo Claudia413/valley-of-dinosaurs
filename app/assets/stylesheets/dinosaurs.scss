@@ -9,17 +9,46 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color: #d0e2c3;
+  display: flex;
 }
 
 h1 {
   font-size: 26px;
   font-weight: bold;
+  text-align: center;
 }
 
 p {
   color: cornflowerblue;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  color: #303030;
 }
 
 img {
   width: 100%
+}
+
+input {
+  border-radius: 5px;
+  height: 1.5rem;
+  margin: 5px;
+}
+
+form.new_dinosaur {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.dino_list {
+  display: flex;
+  text-align: center;
 }
