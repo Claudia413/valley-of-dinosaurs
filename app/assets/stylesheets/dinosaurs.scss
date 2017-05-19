@@ -1,3 +1,21 @@
 // Place all the styles related to the dinosaurs controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  font-family: 'Inknut Antiqua', serif;
+  line-height: 1.6;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+p {
+  color: cornflowerblue;
+}
